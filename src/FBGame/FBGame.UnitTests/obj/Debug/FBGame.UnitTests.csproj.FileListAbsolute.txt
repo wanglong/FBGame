@@ -7,3 +7,14 @@ D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\nunit.framewo
 D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.UnitTests\obj\Debug\FBGame.UnitTests.csprojResolveAssemblyReference.cache
 D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.UnitTests\obj\Debug\FBGame.UnitTests.dll
 D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.UnitTests\obj\Debug\FBGame.UnitTests.pdb
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\FBGame.UnitTests.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\FBGame.UnitTests.pdb
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\FBGame.Core.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\Moq.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\NBehave.Spec.Framework.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\NBehave.Spec.NUnit.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\nunit.framework.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\bin\Debug\FBGame.Core.pdb
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\obj\Debug\FBGame.UnitTests.csprojResolveAssemblyReference.cache
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\obj\Debug\FBGame.UnitTests.dll
+D:\CSharp\FBGame\src\FBGame\FBGame.UnitTests\obj\Debug\FBGame.UnitTests.pdb
