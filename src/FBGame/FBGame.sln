@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBGame.Core", "FBGame.Core\FBGame.Core.csproj", "{32920618-AAB6-49AF-AD83-2F3029DAA153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBGame.IntegrationTests", "FBGame.IntegrationTests\FBGame.IntegrationTests.csproj", "{6CDFC5A2-ACC8-42EF-95BF-DF9E989DBD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBGame.UnitTests", "FBGame.UnitTests\FBGame.UnitTests.csproj", "{09B69E11-826A-40A6-B522-BD0663607984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBGame.WinClient", "FBGame.WinClient\FBGame.WinClient.csproj", "{722CE382-22A3-4D0D-A2E2-11DE659083F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32920618-AAB6-49AF-AD83-2F3029DAA153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32920618-AAB6-49AF-AD83-2F3029DAA153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32920618-AAB6-49AF-AD83-2F3029DAA153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32920618-AAB6-49AF-AD83-2F3029DAA153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDFC5A2-ACC8-42EF-95BF-DF9E989DBD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDFC5A2-ACC8-42EF-95BF-DF9E989DBD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDFC5A2-ACC8-42EF-95BF-DF9E989DBD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDFC5A2-ACC8-42EF-95BF-DF9E989DBD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B69E11-826A-40A6-B522-BD0663607984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B69E11-826A-40A6-B522-BD0663607984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B69E11-826A-40A6-B522-BD0663607984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B69E11-826A-40A6-B522-BD0663607984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722CE382-22A3-4D0D-A2E2-11DE659083F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722CE382-22A3-4D0D-A2E2-11DE659083F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722CE382-22A3-4D0D-A2E2-11DE659083F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722CE382-22A3-4D0D-A2E2-11DE659083F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
