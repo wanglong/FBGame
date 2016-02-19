@@ -28,22 +28,70 @@
 //
 //======================================================================
 
+using System;
 using NUnit.Framework;
+using FBGame.Core.DomainServices;
+using System.Threading;
 
 namespace FBGame.UnitTests.FBGame.Core
 {
-    public class when_working_with_the_TimeCounter_start : Specification
-    {
-    }
-
-    public class and_start :
-        when_working_with_the_TimeCounter_start
-    {
-        [Test]
-        public void then_TimeCounter_status_should_be_running()
+    public class when_working_with_the_TimeCounter_start 
+    { 
+        protected ITimeCounter _timeCounter;
+        protected int _time = 5;
+        protected virtual void Because_of()
         {
-
+            _timeCounter = new TimeCounter();
+            _timeCounter.SetTime(_time);
+            _timeCounter.Start();
         }
 
+        protected void MockTimeCount(int timePoint)
+        {
+            int startTime = 0;
+            while (startTime < timePoint)
+            {
+                _timeCounter.SetAutoEvent(true);
+                startTime++;
+                Thread.Sleep(1000);
+                _timeCounter.SetAutoEvent(false);
+            }
+        }
+    }
+
+    [TestFixture]
+    public class and_by_time_point :
+        when_working_with_the_TimeCounter_start
+    {
+        private int _runningStatus = 1;
+        private int _overStatus = 0;
+        private Random _radom;
+ 
+        [SetUp]
+        protected override void Because_of()
+        {
+            base.Because_of();
+            _radom = new Random();
+        }
+
+        [Test]
+        public void which_in_the_time_then_TimeCounter_status_should_be_running()
+        {
+            int timePoint = _radom.Next(0, 5);
+            base.MockTimeCount(timePoint);
+
+            Assert.AreEqual(_runningStatus, base._timeCounter.GetCurrentStatus());
+            Assert.AreEqual(string.Format("00:0{0}", timePoint), base._timeCounter.GetCurrentTimePointStr());
+        }
+
+        [Test]
+        public void which_after_the_time_then_TimeCounter_status_should_be_over()
+        {
+            int timePoint = _radom.Next(6, 10);
+            base.MockTimeCount(timePoint);
+
+            Assert.AreEqual(_overStatus, base._timeCounter.GetCurrentStatus());
+            Assert.AreEqual(string.Format("00:0{0}", base._time), base._timeCounter.GetCurrentTimePointStr());
+        }
     }
 }

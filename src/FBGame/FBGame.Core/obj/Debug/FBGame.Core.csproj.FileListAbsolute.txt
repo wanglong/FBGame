@@ -3,3 +3,8 @@ D:\CSharp\FBGame\src\FBGame\FBGame.Core\bin\Debug\FBGame.Core.pdb
 D:\CSharp\FBGame\src\FBGame\FBGame.Core\obj\Debug\FBGame.Core.csprojResolveAssemblyReference.cache
 D:\CSharp\FBGame\src\FBGame\FBGame.Core\obj\Debug\FBGame.Core.dll
 D:\CSharp\FBGame\src\FBGame\FBGame.Core\obj\Debug\FBGame.Core.pdb
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.Core\bin\Debug\FBGame.Core.dll
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.Core\bin\Debug\FBGame.Core.pdb
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.Core\obj\Debug\FBGame.Core.csprojResolveAssemblyReference.cache
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.Core\obj\Debug\FBGame.Core.dll
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.Core\obj\Debug\FBGame.Core.pdb

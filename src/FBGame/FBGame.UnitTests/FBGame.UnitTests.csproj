@@ -33,12 +33,6 @@
     <Reference Include="Moq">
       <HintPath>..\..\..\libs\Moq.dll</HintPath>
     </Reference>
-    <Reference Include="NBehave.Spec.Framework">
-      <HintPath>..\..\..\libs\NBehave.Spec.Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="NBehave.Spec.NUnit">
-      <HintPath>..\..\..\libs\NBehave.Spec.NUnit.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework, Version=3.0.5813.39035, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\libs\nunit.framework.dll</HintPath>
@@ -53,10 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FBGame.Core\LineSegmentTest.cs" />
     <Compile Include="FBGame.Core\TimeCounterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Specification.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FBGame.Core\FBGame.Core.csproj">

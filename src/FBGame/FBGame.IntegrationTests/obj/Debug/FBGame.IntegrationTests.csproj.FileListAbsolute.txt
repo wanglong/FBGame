@@ -1,0 +1,5 @@
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.IntegrationTests\bin\Debug\FBGame.IntegrationTests.dll
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.IntegrationTests\bin\Debug\FBGame.IntegrationTests.pdb
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.IntegrationTests\obj\Debug\FBGame.IntegrationTests.csprojResolveAssemblyReference.cache
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.IntegrationTests\obj\Debug\FBGame.IntegrationTests.dll
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.IntegrationTests\obj\Debug\FBGame.IntegrationTests.pdb

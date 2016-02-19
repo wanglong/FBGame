@@ -1,0 +1,9 @@
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\bin\Debug\FBGame.WinClient.exe.config
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\bin\Debug\FBGame.WinClient.exe
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\bin\Debug\FBGame.WinClient.pdb
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\obj\Debug\FBGame.WinClient.csprojResolveAssemblyReference.cache
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\obj\Debug\FBGame.WinClient.Form1.resources
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\obj\Debug\FBGame.WinClient.Properties.Resources.resources
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\obj\Debug\FBGame.WinClient.csproj.GenerateResource.Cache
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\obj\Debug\FBGame.WinClient.exe
+D:\DevProjects\GitHub\FBGame\src\FBGame\FBGame.WinClient\obj\Debug\FBGame.WinClient.pdb
